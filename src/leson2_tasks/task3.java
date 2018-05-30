@@ -6,7 +6,7 @@ public class task3 {
         int number2 = 6;
         int sumNumbers = numbersSumm(number1, number2);
         int umnojenie = proizved(number1, number2);
-        int sumMetods = nmetodsSumm(sumNumbers, umnojenie);
+        int sumMetods = numbersSumm(sumNumbers, umnojenie);
         String txt = "Java Forever";
         javaPrint(txt);
         System.out.println(sumNumbers);
@@ -18,6 +18,7 @@ public class task3 {
         System.out.println(text);
     }
 
+
     static private int numbersSumm(int number1, int number2) {
         int a = number1 + number2;
         return a;
@@ -28,8 +29,4 @@ public class task3 {
         return a;
     }
 
-    static private int nmetodsSumm(int number1, int number2) {
-        int a = number1 + number2;
-        return a;
-    }
 }
