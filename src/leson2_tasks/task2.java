@@ -6,4 +6,6 @@ public class task2 {
             int b =23;
             System.out.println(a+b);
         }
+    }
+
 }
