@@ -23,7 +23,6 @@ public class HomeWork {
         System.out.println("I can do it!");
     }
 
-
     static private int average(int number1, int number2, int number3) {
         int a = (number1 + number2 + number3) / 3;
         return a;
