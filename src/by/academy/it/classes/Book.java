@@ -4,10 +4,11 @@ public class Book {
     private String nameOfBook;
     private String Author;
     private int numberOfPages;
-    public Book(String nameOfBook, String Author, int numberOfPages){
+
+    public Book(String nameOfBook, String Author, int numberOfPages) {
         this.nameOfBook = nameOfBook;
         this.Author = Author;
-        this.numberOfPages=numberOfPages;
+        this.numberOfPages = numberOfPages;
     }
 
     public String getNameOfBook() {
@@ -35,8 +36,8 @@ public class Book {
     }
 
     public static void printAllBooks(Book[] Books) {
-        for(Book booksMassive : Books){
-        System.out.println("Name of book: " + booksMassive.getNameOfBook() + " \nAuthor: " + booksMassive.getAuthor() + " \nNumber of pages: " + booksMassive.getNumberOfPages() + "\n");
+        for (Book booksMassive : Books) {
+            System.out.println("Name of book: " + booksMassive.getNameOfBook() + " \nAuthor: " + booksMassive.getAuthor() + " \nNumber of pages: " + booksMassive.getNumberOfPages() + "\n");
 
         }
     }
