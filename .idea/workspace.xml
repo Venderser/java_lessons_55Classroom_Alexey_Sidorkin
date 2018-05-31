@@ -133,12 +133,12 @@
   </component>
   <component name="RunManager" selected="Application.HomeWork">
     <configuration name="HomeWork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leson2_tasks.HomeWork" />
+      <option name="MAIN_CLASS_NAME" value="lesson2.HomeWork" />
       <module name="java_lessons_55Classroom_Alexey_Sidorkin" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leson2_tasks.*" />
+          <option name="PATTERN" value="lesson2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,12 +147,12 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration name="task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leson2_tasks.task3" />
+      <option name="MAIN_CLASS_NAME" value="lesson2.task3" />
       <module name="java_lessons_55Classroom_Alexey_Sidorkin" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leson2_tasks.*" />
+          <option name="PATTERN" value="lesson2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
