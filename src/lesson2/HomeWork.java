@@ -29,7 +29,7 @@ public class HomeWork {
     }
 
     static private int squareRoot(int number1, int number2) {
-        int a = (number1 * number2) + (number1 * number2);
+        int a = (number1 * number2) + (number1 + number2);
         return a;
     }
 }
