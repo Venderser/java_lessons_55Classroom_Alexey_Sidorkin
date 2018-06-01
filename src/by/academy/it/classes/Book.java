@@ -15,30 +15,26 @@ public class Book {
         return nameOfBook;
     }
 
-    public void setNameOfBook(String nameOfBook) {
-        this.nameOfBook = nameOfBook;
-    }
-
     public String getAuthor() {
         return Author;
-    }
-
-    public void setAuthor(String author) {
-        Author = author;
     }
 
     public int getNumberOfPages() {
         return numberOfPages;
     }
 
-    public void setNumberOfPages(int numberOfPages) {
-        this.numberOfPages = numberOfPages;
-    }
-
-    public static void printAllBooks(Book[] Books) {
+   /* public static void printAllBooks(Book[] Books) {
         for (Book booksMassive : Books) {
             System.out.println("Name of book: " + booksMassive.getNameOfBook() + " \nAuthor: " + booksMassive.getAuthor() + " \nNumber of pages: " + booksMassive.getNumberOfPages() + "\n");
 
+            Massive method of book creating!
+
+
+            */
+   public static void printAllBooks(Book Book) {
+
+           System.out.println("Name of book: " + Book.getNameOfBook() + " \nAuthor: " + Book.getAuthor() + " \nNumber of pages: " + Book.getNumberOfPages() + "\n");
+            /* Method for solo book*/
         }
     }
-}
+

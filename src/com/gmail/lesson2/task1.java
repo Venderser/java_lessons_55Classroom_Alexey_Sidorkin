@@ -1,4 +1,4 @@
-package lesson2;
+package com.gmail.lesson2;
 
 public class task1 {
     public static void main(String[] args) {

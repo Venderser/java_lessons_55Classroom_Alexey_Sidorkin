@@ -12,11 +12,18 @@ package by.academy.it.classes;
 
 public class NewBook {
     public static void main(String[] args) {
-        Book[] booksMassive = {
+ /*       Book[] booksMassive = {
                 new Book("The book about nothing", "The nobody", 200),
                 new Book("The book about something", "The somebody", 150),
                 new Book("The book about two stupid authors", "Third no name human", 100)
         };
         Book.printAllBooks(booksMassive);
+
+        Massive method of book creating!
+
+        */
+ Book first = new Book("r","s",3);
+  Book.printAllBooks(first);
+        /* Method for solo book*/
     }
 }

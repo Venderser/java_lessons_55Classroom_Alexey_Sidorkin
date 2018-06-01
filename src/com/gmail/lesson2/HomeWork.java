@@ -1,4 +1,4 @@
-package lesson2;
+package com.gmail.lesson2;
 
 /*1. Создайте три переменные, которые содержат любые целые числа. Создайте метод, который вычисляет среднее арифметическое трех целых чисел.
  Выведите результат вычисления на экран в основном теле программы.
@@ -29,7 +29,10 @@ public class HomeWork {
     }
 
     static private int squareRoot(int number1, int number2) {
-        int a = (number1 * number2) + (number1 + number2);
-        return a;
+        int a = (number1 * number2);
+        int b= (number1 + number2);
+        int c =0;
+        c +=a+b;
+        return c;
     }
 }
