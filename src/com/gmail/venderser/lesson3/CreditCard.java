@@ -18,15 +18,13 @@ public  class CreditCard {
     }
 
 
-    public  int addMoney() {
+    public  void addMoney(int amount) {
        getCardBalance();
-       cardBalance +=10;
-        return cardBalance;
+       cardBalance +=amount;
     }
-    public int withdrownMoney() {
+    public void withdrawnMoney(int amount) {
         getCardBalance();
-        cardBalance -=5;
-        return cardBalance;
+        cardBalance -=amount;
     }
     public  void cardInfo() {
         System.out.println("CardID: " + getCardID() + " Balance: " + getCardBalance() + "$" + "\n");
