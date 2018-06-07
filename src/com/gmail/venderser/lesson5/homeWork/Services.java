@@ -1,6 +1,6 @@
 package com.gmail.venderser.lesson5.homeWork;
 
-public class Services {
+ class Services {
     public void year(int firstYear, int lastYear) {
         int summ = 0;
         for (int i = firstYear; i <= lastYear; i++) {
