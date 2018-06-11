@@ -26,10 +26,10 @@ public class Service {
     void minusGen(int n){
         Random random = new Random();
         int i=0;
-        while(i<100){
+      //  while(i<100){
 int result=random.nextInt(n*2+1)-n;
 sysOut(result);
-        i++;}
+     //   i++;}
     }
 
     void even(int[] mass) {
