@@ -5,6 +5,6 @@ public class NumberWithMinus {
 
         Service minus = new Service();
         System.out.println("Enter the range -n..n:");
-        minus.minusGen(minus.scanner(),minus.scanner());
-    }
+        minus.minusGen(minus.scanner());
+}
 }

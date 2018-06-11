@@ -23,10 +23,13 @@ public class Service {
         return mass;
     }
 
-    void minusGen(int x, int y){
+    void minusGen(int n){
         Random random = new Random();
-int result=random.nextInt(y-x)+x;
+        int i=0;
+        while(i<100){
+int result=random.nextInt(n*2+1)-n;
 sysOut(result);
+        i++;}
     }
 
     void even(int[] mass) {
