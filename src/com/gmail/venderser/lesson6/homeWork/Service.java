@@ -2,8 +2,8 @@ package com.gmail.venderser.lesson6.homeWork;
 
 import java.util.Random;
 import java.util.Scanner;
+ class Service {
 
-public class Service {
     int scanner() {
         System.out.println("Enter the number");
         Scanner scan = new Scanner(System.in);
@@ -23,13 +23,13 @@ public class Service {
         return mass;
     }
 
-    void minusGen(int n){
+    void minusGen(int n) {
         Random random = new Random();
-        int i=0;
-      //  while(i<100){
-int result=random.nextInt(n*2+1)-n;
-sysOut(result);
-     //   i++;}
+        int i = 0;
+
+        int result = random.nextInt(n * 2 + 1) - n;
+        sysOut(result);
+
     }
 
     void even(int[] mass) {
